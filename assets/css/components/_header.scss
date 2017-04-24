@@ -1,0 +1,29 @@
+header {
+  display:flex;
+  padding:5px;
+  align-items:center;
+  background:black;
+  position:absolute;
+  width:100%;
+  height:40px;
+  box-sizing:border-box;
+  z-index:999;
+  
+  .logo {
+    flex:0 0 auto;
+    line-height:40px;
+  }
+
+  nav {
+    flex:1 0 auto;
+    text-align:right;
+
+    .episode-title {
+      line-height:40px;
+      padding:0 5px;
+    }
+    .mejs__player {
+      display:inline-block;
+    }
+  }
+}

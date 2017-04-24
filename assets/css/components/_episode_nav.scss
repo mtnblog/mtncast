@@ -1,0 +1,101 @@
+.previous-episode {
+  position:absolute;
+  top:50%; left:0%;
+  transform:translate(0, -50%);
+  z-index:2;
+
+  a {
+    i {
+      background:rgba(0,0,0,0.5);    
+      padding:30px 10px;
+      color:white;
+    }
+
+    .info {
+      position:absolute;
+      top:0; left:31px;
+      background:rgba(0,0,0,0.8);
+      width:200px;
+      height:100%;
+      padding:5px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      opacity:0;
+      visibility:hidden;
+      transition:visibility 0s ease 0.3s, opacity 0.3s ease;
+
+      .episode-number {
+        color:$grey3;
+        font-size:12px;
+        margin:0;
+      }
+      .episode-title {
+        color:$grey5;
+        font-size:14px;
+        margin:5px 0;
+      }
+    }
+    &:hover {
+      i {
+        color:$yellow1;
+        background:rgba(0,0,0,0.8);
+      }
+      .info {
+        opacity:1;
+        visibility:visible;
+        transition-delay:0s;
+      }
+    }
+  }
+}
+.next-episode {
+  position:absolute;
+  top:50%; right:0%;
+  transform:translate(0, -50%);
+  z-index:2;
+
+  a {
+    i {
+      background:rgba(0,0,0,0.5);
+      padding:30px 10px;
+      color:white;
+    }
+    .info {
+      position:absolute;
+      top:0; right:31px;
+      background:rgba(0,0,0,0.8);
+      min-width:150px;
+      height:100%;
+      padding:5px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      opacity:0;
+      visibility:hidden;
+      transition:visibility 0s ease 0.3s, opacity 0.3s ease;
+
+      .episode-number {
+        color:$grey3;
+        font-size:12px;
+        margin:0;
+      }
+      .episode-title {
+        color:$grey5;
+        font-size:14px;
+        margin:5px 0;
+      }
+    }
+    &:hover {
+      i {
+        color:$yellow1;
+        background:rgba(0,0,0,0.8);
+      }
+      .info {
+        opacity:1;
+        visibility:visible;
+        transition-delay:0s;
+      }
+    }
+  }
+}

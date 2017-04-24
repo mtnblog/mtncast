@@ -1,0 +1,36 @@
+.episode-2 {
+  position:relative;
+  overflow:hidden;
+
+  .bg {
+    height:100vh;
+    width:100vw;
+    background:url(/images/episode_2_bg.jpg) center bottom no-repeat;
+    background-size:cover;
+  }
+  .clouds {
+    position:absolute;
+    bottom:-150px;
+    width:4000px;
+    height:430px;
+    z-index:1;
+    background:url(/images/episode_2_clouds.png) center bottom repeat-x;    
+    -webkit-animation: moveclouds 60s linear infinite;
+    -moz-animation: moveclouds 60s linear infinite;
+    -o-animation: moveclouds 60s linear infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in-out;
+  } 
+  @-webkit-keyframes moveclouds {
+   0% {left: 0px;}
+   100% {left:-2000px}
+  }
+  @-moz-keyframes moveclouds {
+   0% {left: 0px;}
+   100% {left:-2000px;}
+  }
+  @-o-keyframes moveclouds {
+   0% {left: 0px;}
+   100% {left: -2000px;}
+  }
+}

@@ -1,0 +1,55 @@
+a {
+  color:$blue1;
+  text-decoration:none;
+  &:hover {color:$blue2;}
+  &:active {color:$blue2;}
+}
+
+.logo {
+  font-family:sans-serif;
+  color:$grey6;
+  font-weight:bold;
+  font-size:24px;
+
+  &:hover {color:$yellow1;}
+}
+
+nav { 
+  a {
+    font-family:sans-serif;
+    color:$grey6;
+    font-weight:bold;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+
+    &:hover {color:$yellow1;}
+  }
+}
+
+input {
+  font-size:12px;
+}
+
+button {
+  font-family:sans-serif;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:12px;
+  letter-spacing:0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin:10px 0;
+  padding:0;
+  color:$grey2;
+  line-height:1;
+}
+
+p {
+  margin:10px 0;
+  padding:0;
+  color:$grey2;
+  line-height:1.4;
+}
+

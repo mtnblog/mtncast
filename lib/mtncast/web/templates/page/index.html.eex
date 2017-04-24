@@ -1,0 +1,6 @@
+<div class="episode-1">
+  <div class="bg">
+    <div id="particles"></div>
+    <div class="fg"></div>
+  </div>
+</div>

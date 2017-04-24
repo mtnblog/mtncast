@@ -1,0 +1,23 @@
+.episode-1 {
+  .bg {
+    height:100vh;
+    width:100vw;
+    background:url(/images/episode_1_bg.jpg) center bottom no-repeat;
+    background-size:cover;
+
+    #particles {
+      position:absolute;
+      width:100vw;
+      height:100vh;
+    }
+
+    .fg {
+      position:absolute;
+      height:100vh;
+      width:100vw;
+      background:url(/images/episode_1_fg.png) center bottom no-repeat;
+      background-size:cover;
+    }
+  }
+}
+

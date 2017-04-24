@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MTNCast | High Altitude Content to Get You Psyched</title>
+    <meta name="description" content="High altitude content to get you psyched! We've got your bouldering, alpine climbing, trad climbing, sport climbing and deep water soloing needs covered." />
+    <meta name="keywords" content="climbing,photos,videos,articles,mountain,blog,mtnblog,mountainblog,climbingblog,pictures,mountains,summits,bouldering,sport,trad,traditional,alpine">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <header>
+    <a class="logo" href="/">MTNCAST</a>
+    <nav>
+      <a class="episode-title" href="#"><%= @title %></a>
+      <audio id="player" class="mejs__player" preload="none">
+        <source src="https://freemusicarchive.org/music/listen/7f1bb4ffc2da376a96c5298afa001e1cab9740d1" type="audio/mp3">
+      </audio>      
+    </nav>
+  </header>
+
+  <body>
+    <main role="main">
+      <%= render @view_module, @view_template, assigns %>
+      <!--
+      <div class="previous-episode">
+        <a href="/">
+          <i class="fa fa-chevron-left"></i>
+          <div class="info">
+            <span class="episode-number">Episode 1</span>
+            <h1 class="episode-title">The Rise and Fall of The American Alpinist</h1>
+          </div>
+        </a>
+      </div>
+      <div class="next-episode">
+        <a href="/2">
+          <i class="fa fa-chevron-right"></i>
+          <div class="info">
+            <span class="episode-number">Episode 2</span>
+            <h1 class="episode-title">Touching The Void</h1>
+          </div>
+        </a>
+      </div>
+      -->
+    </main>
+
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
+

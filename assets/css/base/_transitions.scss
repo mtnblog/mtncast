@@ -1,0 +1,7 @@
+a, i, button, span, ::before, ::after {
+  transition: all 0.2s ease;
+}
+
+i::before, i::after {
+  transition:none;
+}
