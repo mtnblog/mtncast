@@ -16,9 +16,8 @@ defmodule Mtncast.Web.Router do
   scope "/", Mtncast.Web do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
-
-    #get "/:id", PodcastController, :show
+    get "/", PodcastController, :index
+    get "/:id", PodcastController, :show
   end
 
   # Other scopes may use custom stacks.

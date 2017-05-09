@@ -6,8 +6,10 @@
     "watch": "brunch watch --stdin"
   },
   "dependencies": {
+    "coffee-script-brunch": "^2.10.1",
     "jplayer": "^2.9.2",
     "jquery": "^3.2.1",
+    "json-brunch": "^1.5.4",
     "mediaelement": "^4.0.5",
     "particles.js": "^2.0.0",
     "phoenix": "file:../deps/phoenix",

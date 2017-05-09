@@ -2,3 +2,23 @@
   <div class="bg"></div>
   <div class="clouds"></div>
 </div>
+
+<div class="previous-episode">
+  <a href="/3">
+    <i class="fa fa-chevron-left"></i>
+    <div class="info">
+      <span class="episode-number">Episode 3</span>
+      <h1 class="episode-title">The Rise and Fall of The American Alpinist</h1>
+    </div>
+  </a>
+</div>
+
+<div class="next-episode">
+  <a href="/1">
+    <i class="fa fa-chevron-right"></i>
+    <div class="info">
+      <span class="episode-number">Episode 1</span>
+      <h1 class="episode-title">Touching The Void</h1>
+    </div>
+  </a>
+</div>

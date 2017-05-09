@@ -4,3 +4,13 @@
     <div class="fg"></div>
   </div>
 </div>
+
+<div class="previous-episode">
+  <a href="/2">
+    <i class="fa fa-chevron-left"></i>
+    <div class="info">
+      <span class="episode-number">Episode 2</span>
+      <h1 class="episode-title">The Rise and Fall of The American Alpinist</h1>
+    </div>
+  </a>
+</div>
