@@ -16,7 +16,7 @@
   <header>
     <a class="logo" href="/">MTNCAST</a>
     <nav>
-      <a class="episode-title" href="#"><%= @episode.title %></a>
+      <a class="episode-title" href="#"><%= #@episode.title %></a>
       <audio id="player" class="mejs__player" preload="none">
         <source src="https://freemusicarchive.org/music/listen/7f1bb4ffc2da376a96c5298afa001e1cab9740d1" type="audio/mp3">
       </audio>      

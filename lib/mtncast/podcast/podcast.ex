@@ -11,4 +11,17 @@ defmodule Mtncast.Podcast do
   def get_episode(id) do
     Repo.get!(Episode, id)
   end
+
+  def get_episodes() do
+    Repo.all(Episode)
+  end
+
+  def create_episode(title, url) do
+    episode = Episode.changeset(%Episode{title: title, url: url})
+    Repo.insert!(episode)
+  end
+
+  def delete_episodes() do
+    Repo.delete_all(Episode)
+  end
 end

@@ -4,8 +4,9 @@ defmodule Mtncast.Web.PodcastController do
 
   def index(conn, _params) do
     episode = Podcast.get_latest_episode()
-    template = "episode_#{episode.id}.html"
-
+    #template = "episode_#{episode.id}.html"
+    template = "episode_1.html"
+    
     render(conn, template, episode: episode)
   end
 
